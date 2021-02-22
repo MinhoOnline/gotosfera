@@ -1,0 +1,177 @@
+{
+   "questions":[
+      {
+         "text":"1-¿Cuál de los siguientes personajes es un aspecto de cazador?",
+         "answers":[
+            "Lor'themar Theron",
+            "Alleria Brisaveloz",
+            "Lireesa Brisaveloz",
+            "Halduron Alasol"
+         ],
+         "correct":1
+      },
+      {
+         "text":"2-En BG,¿A qué nivel debes subir la taberna para obtener los dos esbirros con Alexstrasza?",
+         "answers":[
+            "Te los dan al comienzo de la partida",
+            "4",
+            "5",
+            "6"
+         ],
+         "correct":2
+      },
+      {
+         "text":"3-¿Cuál de las siguientes clases NO posée una carta de estudios?",
+         "answers":[
+            "Mago",
+            "Chamán",
+            "Cazador",
+            "Paladín"
+         ],
+         "correct":3
+      },
+      {
+         "text":"4-¿Cuánto polvo arcano cuesta craftear una carta común dorada?",
+         "answers":[
+            "100",
+            "160",
+            "200",
+            "400"
+         ],
+         "correct":3
+      },
+      {
+         "text":"5-De las 10 adaptaciones del juego, ¿Cuántas NO están disponibles en campos de batalla?",
+         "answers":[
+            "1",
+            "2",
+            "3",
+            "Todas las adaptaciones están disponibles"
+         ],
+         "correct":1
+      },
+      {
+         "text":"6-Completa el nombre del siguiente héroe de BG: El Gran....",
+         "answers":[
+            "Akazamzarak",
+            "Karakazam",
+            "Kazamzaraka",
+            "Arakazamka"
+         ],
+         "correct":0
+      },
+      {
+         "text":"7-¿Cuál de las siguientes clases NO tenía un Loa bestia?",
+         "answers":[
+            "Sacerdote",
+            "Brujo",
+            "Guerrero",
+            "Pícaro"
+         ],
+         "correct":0
+      },
+      {
+         "text":"8-¿Cuál es el coste dentro del juego del esbirro de Campos de Batalla Mecahuevo?",
+         "answers":[
+            "4",
+            "5",
+            "6",
+            "7"
+         ],
+         "correct":1
+      },
+      {
+         "text":"9-¿Cuál de los siguientes Galakronds mejorados al máximo NO tiene un 4 en su texto?",
+         "answers":[
+            "Guerrero",
+            "Chamán",
+            "Sacerdote",
+            "Pícaro"
+         ],
+         "correct":1
+      },
+      {
+         "text":"10-¿Cuál es el título que recibe el DK de chamán: Thrall...?",
+         "answers":[
+            "Sombrío",
+            "Agorero",
+            "el lúgubre",
+            "Sibilino"
+         ],
+         "correct":1
+      },
+      {
+         "text":"11-¿Cuáles son las estadísticas del Prime de Pícaro Akama?",
+         "answers":[
+            "6/4",
+            "7/4",
+            "6/5",
+            "7/5"
+         ],
+         "correct":2
+      },
+      {
+         "text":"12-¿Cuál de los siguientes héroes retirados de BG tenía el HP más barato?",
+         "answers":[
+            "Tyrion Vadín",
+            "Profesor Putricidio",
+            "Giantfin",
+            "Sylvanas Brisaveloz"
+         ],
+         "correct":3
+      },
+	{
+         "text":"13-De los diez aspectos de Jaina, ¿Cuántos no son diferentes versiones de ella misma?",
+         "answers":[
+            "2",
+            "3",
+            "4",
+            "5"
+         ],
+         "correct":1
+      },
+      {
+         "text":"14-¿Cuántos sets hay actualmente en la categoría de salvaje?",
+         "answers":[
+            "8",
+            "10",
+            "12",
+            "15"
+         ],
+         "correct":3
+      },
+
+      {
+         "text":"15-¿Cuál de las siguientes cartas o poderes que obtienen cartas NO remueve ninguna copia del pool en BG?",
+         "answers":[
+            "El poder de héroe de Reno Jackson",
+            "El poder de héroe de Rafaam",
+            "Murozond el infinito",
+            "Vigilante primapantano"
+         ],
+         "correct":0
+      }
+   ],
+   "extras":[
+      {
+         "text":"Extra-¿Qué ocurre si Yogg-Saron lanza un hechizo con Eco?",
+         "answers":[
+            "Obtienes una copia del hechizo",
+            "No pasa nada, no se activa el eco",
+            "Interactúa al igual que si lanzases la carta, se activa el eco",
+            "Te da la copia en forma Eco pero con el coste rojo y no puedes usarla"
+         ],
+         "correct":1
+      },
+      {
+         "text":"Extra-¿Qué aparece en el icono del poder de héroe básico de Pícaro?",
+         "answers":[
+            "Una daga clavada",
+            "Dos dagas clavadas",
+            "Dos dagas cruzadas",
+            "Una mano sujetando una daga"
+         ],
+         "correct":1
+      }
+   ]
+}
