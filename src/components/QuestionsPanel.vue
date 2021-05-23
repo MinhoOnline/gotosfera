@@ -139,19 +139,35 @@ export default {
       type: Object,
       required: true
     },
-    isAnswerMarked0: {
+    isP1AnswerMarked0: {
       type: Boolean,
       required: true
     },
-    isAnswerMarked1: {
+    isP1AnswerMarked1: {
       type: Boolean,
       required: true
     },
-    isAnswerMarked2: {
+    isP1AnswerMarked2: {
       type: Boolean,
       required: true
     },
-    isAnswerMarked3: {
+    isP1AnswerMarked3: {
+      type: Boolean,
+      required: true
+    },
+    isP2AnswerMarked0: {
+      type: Boolean,
+      required: true
+    },
+    isP2AnswerMarked1: {
+      type: Boolean,
+      required: true
+    },
+    isP2AnswerMarked2: {
+      type: Boolean,
+      required: true
+    },
+    isP2AnswerMarked3: {
       type: Boolean,
       required: true
     },
@@ -192,13 +208,37 @@ export default {
       } else {
         switch (index) {
           case 0:
-            return this.isAnswerMarked0 ? "orange darken-2" : "blue darken-2";
+            if (this.isP1AnswerMarked0) {
+              if (this.isP2AnswerMarked0) return "orange darken-3";
+              else return "red darken-2";
+            } else {
+              if (this.isP2AnswerMarked0) return "yellow darken-2";
+              else return "blue darken-2";
+            }
           case 1:
-            return this.isAnswerMarked1 ? "orange darken-2" : "blue darken-2";
+            if (this.isP1AnswerMarked1) {
+              if (this.isP2AnswerMarked1) return "orange darken-3";
+              else return "red darken-2";
+            } else {
+              if (this.isP2AnswerMarked1) return "yellow darken-2";
+              else return "blue darken-2";
+            }
           case 2:
-            return this.isAnswerMarked2 ? "orange darken-2" : "blue darken-2";
+            if (this.isP1AnswerMarked2) {
+              if (this.isP2AnswerMarked2) return "orange darken-3";
+              else return "red darken-2";
+            } else {
+              if (this.isP2AnswerMarked2) return "yellow darken-2";
+              else return "blue darken-2";
+            }
           case 3:
-            return this.isAnswerMarked3 ? "orange darken-2" : "blue darken-2";
+            if (this.isP1AnswerMarked3) {
+              if (this.isP2AnswerMarked3) return "orange darken-3";
+              else return "red darken-2";
+            } else {
+              if (this.isP2AnswerMarked3) return "yellow darken-2";
+              else return "blue darken-2";
+            }
         }
       }
     }

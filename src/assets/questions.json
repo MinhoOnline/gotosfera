@@ -1,177 +1,176 @@
 {
    "questions":[
       {
-         "text":"1-¿Cuál de los siguientes personajes es un aspecto de cazador?",
+         "text":"1- ¿Cuál de las siguientes NO es la inicial del nick de un campeón del mundo?",
          "answers":[
-            "Lor'themar Theron",
-            "Alleria Brisaveloz",
-            "Lireesa Brisaveloz",
-            "Halduron Alasol"
-         ],
-         "correct":1
-      },
-      {
-         "text":"2-En BG,¿A qué nivel debes subir la taberna para obtener los dos esbirros con Alexstrasza?",
-         "answers":[
-            "Te los dan al comienzo de la partida",
-            "4",
-            "5",
-            "6"
+            "O",
+            "T",
+            "S",
+            "H"
          ],
          "correct":2
       },
       {
-         "text":"3-¿Cuál de las siguientes clases NO posée una carta de estudios?",
+         "text":"2- Druida sólo tiene 1 hechizo que no comparte coste con ningún otro en salvaje ¿Cuál es dicho coste?",
          "answers":[
-            "Mago",
+            "7",
+            "8",
+            "9",
+            "10"
+         ],
+         "correct":2
+      },
+      {
+         "text":"3- ¿Cómo se escribe correctamente el nombre del siguiente héroe de BG...?",
+         "answers":[
+            "A.F.Ka",
+            "A.F.KA",
+            "A.F.K",
+            "A.F.K."
+         ],
+         "correct":0
+      },
+      {
+         "text":"4- ¿Cuál de los siguientes invitados acudió primero a la Gotosfera?",
+         "answers":[
+            "Zhotan",
+            "Drizzt",
+            "Shadar",
+            "Radb_tr"
+         ],
+         "correct":0
+      },
+      {
+         "text":"5- ¿Dónde se pueden encontrar MÁS cartas que interactúen con cartas legendarias?",
+         "answers":[
             "Chamán",
-            "Cazador",
-            "Paladín"
+            "Brujo",
+            "Pícaro",
+            "Neutral"
          ],
-         "correct":3
+         "correct":0
       },
       {
-         "text":"4-¿Cuánto polvo arcano cuesta craftear una carta común dorada?",
+         "text":"6- ¿Qué frase dice Yogg-Saron al atacar?",
          "answers":[
-            "100",
-            "160",
-            "200",
-            "400"
-         ],
-         "correct":3
-      },
-      {
-         "text":"5-De las 10 adaptaciones del juego, ¿Cuántas NO están disponibles en campos de batalla?",
-         "answers":[
-            "1",
-            "2",
-            "3",
-            "Todas las adaptaciones están disponibles"
+            "Tú destino... está ligado a mi.",
+            "Soy... el destino.",
+            "Devoraré... el mundo",
+            "Su sino... queda en tus manos"
          ],
          "correct":1
       },
       {
-         "text":"6-Completa el nombre del siguiente héroe de BG: El Gran....",
+         "text":"7- ¿Cómo se consigue el 3º diseño de moneda?",
          "answers":[
-            "Akazamzarak",
-            "Karakazam",
-            "Kazamzaraka",
-            "Arakazamka"
+            "En el pase de taberna, 10 niveles después del segundo",
+            "Al poseer 135 cartas distintas del conjunto Feria Negra",
+            "Al completar todos los capítulos del libro de héroes",
+            "Pagando 500 de oro en la tienda"
          ],
-         "correct":0
+         "correct":1
       },
       {
-         "text":"7-¿Cuál de las siguientes clases NO tenía un Loa bestia?",
+         "text":"8- ¿Qué clase posee dos legendarias de la expansión Locura en la Feria negra del mismo coste?",
          "answers":[
+            "Druida",
             "Sacerdote",
             "Brujo",
-            "Guerrero",
-            "Pícaro"
+            "Cazador de demonios"
+         ],
+         "correct":2
+      },
+      {
+         "text":"9- ¿Cuánto cuestan 2 sobres de Hearthstone en la tienda del juego?",
+         "answers":[
+            "1,99€",
+            "2,5€",
+            "2,99€",
+            "3,5€"
+         ],
+         "correct":2
+      },
+      {
+         "text":"10- ¿Cómo se denomina a la opción que te otorga la Esfera de la Sapiencia si decides mandar tu carta al final del deck?",
+         "answers":[
+            "Un nuevo final",
+            "Un nuevo rumbo",
+            "Un nuevo destino",
+            "Un nuevo camino"
+         ],
+         "correct":2
+      },
+      {
+         "text":"11- ¿Qué dice el esbirro legendario de paladín Lady Liadrin cuando ataca?",
+         "answers":[
+            "¡Por el sol devastado!",
+            "¡Shattrath no caerá!",
+            "¡Shattrath no caerá en vano!",
+            "¡Recibiréis vuestro castigo!"
          ],
          "correct":0
       },
       {
-         "text":"8-¿Cuál es el coste dentro del juego del esbirro de Campos de Batalla Mecahuevo?",
+         "text":"12- ¿Qué criatura aparece en el centro del tiovivo de la elección de rotación de esbirros al jugar a Silas Luna Negra?",
          "answers":[
+            "Un murloc",
+            "Un león",
+            "Un grifo",
+            "Un dragón"
+         ],
+         "correct":2
+      },
+      {
+         "text":"13- En el libro de los héroes de Thrall, Orgrimo Martillo maldito posée un poder de héroe que equipa el propio martillo. ¿Cuánto cuesta dicho poder?",
+         "answers":[
+            "3",
             "4",
             "5",
-            "6",
             "7"
          ],
          "correct":1
       },
       {
-         "text":"9-¿Cuál de los siguientes Galakronds mejorados al máximo NO tiene un 4 en su texto?",
+         "text":"14- ¿Cómo se denomina a la opción que restaura 12 de salud de la carta Oasis oculto?",
          "answers":[
-            "Guerrero",
-            "Chamán",
-            "Sacerdote",
-            "Pícaro"
-         ],
-         "correct":1
-      },
-      {
-         "text":"10-¿Cuál es el título que recibe el DK de chamán: Thrall...?",
-         "answers":[
-            "Sombrío",
-            "Agorero",
-            "el lúgubre",
-            "Sibilino"
-         ],
-         "correct":1
-      },
-      {
-         "text":"11-¿Cuáles son las estadísticas del Prime de Pícaro Akama?",
-         "answers":[
-            "6/4",
-            "7/4",
-            "6/5",
-            "7/5"
-         ],
-         "correct":2
-      },
-      {
-         "text":"12-¿Cuál de los siguientes héroes retirados de BG tenía el HP más barato?",
-         "answers":[
-            "Tyrion Vadín",
-            "Profesor Putricidio",
-            "Giantfin",
-            "Sylvanas Brisaveloz"
+            "Beber del manantial",
+            "Beber agua",
+            "Hidratación profunda",
+            "Chapuzón refrescante"
          ],
          "correct":3
       },
-	{
-         "text":"13-De los diez aspectos de Jaina, ¿Cuántos no son diferentes versiones de ella misma?",
-         "answers":[
-            "2",
-            "3",
-            "4",
-            "5"
-         ],
-         "correct":1
-      },
       {
-         "text":"14-¿Cuántos sets hay actualmente en la categoría de salvaje?",
+         "text":"15- ¿Cuántas cartas hay actualmente en HS Estándar?",
          "answers":[
-            "8",
-            "10",
-            "12",
-            "15"
+            "856",
+            "945",
+            "989",
+            "1289"
          ],
          "correct":3
-      },
-
-      {
-         "text":"15-¿Cuál de las siguientes cartas o poderes que obtienen cartas NO remueve ninguna copia del pool en BG?",
-         "answers":[
-            "El poder de héroe de Reno Jackson",
-            "El poder de héroe de Rafaam",
-            "Murozond el infinito",
-            "Vigilante primapantano"
-         ],
-         "correct":0
       }
    ],
    "extras":[
       {
-         "text":"Extra-¿Qué ocurre si Yogg-Saron lanza un hechizo con Eco?",
+         "text":"Extra- ¿De qué color es la piel de Alafeliz?",
          "answers":[
-            "Obtienes una copia del hechizo",
-            "No pasa nada, no se activa el eco",
-            "Interactúa al igual que si lanzases la carta, se activa el eco",
-            "Te da la copia en forma Eco pero con el coste rojo y no puedes usarla"
+            "Verde",
+            "Azul",
+            "Rosa",
+            "Morado"
          ],
-         "correct":1
+         "correct":0
       },
       {
-         "text":"Extra-¿Qué aparece en el icono del poder de héroe básico de Pícaro?",
+         "text":"Extra- Termina la frase que aparece en la Esfera de la Sapiencia: '¿Qué enseña esta bola, que ___ ?'",
          "answers":[
-            "Una daga clavada",
-            "Dos dagas clavadas",
-            "Dos dagas cruzadas",
-            "Una mano sujetando una daga"
+            "a la gente común asola",
+            "brilla más que los brillacortezas, y los brillacortezas brillan mucho",
+            "a todo el mundo le mola",
+            "lleva pitando todo el día"
          ],
-         "correct":1
+         "correct":2
       }
    ]
 }

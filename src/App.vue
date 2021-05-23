@@ -2,10 +2,7 @@
   <v-app style="font-family: 'HearthStone';">
     <v-container fluid class="ma-0 pa-0">
       <v-card class="iframe-container">
-        <iframe
-          src="
-  https://streamelements.com/overlay/5f9071ba3ec0a584da2b7b26/yGcFLPK8w93QiM5w3thBJVvME7E6cua1Sfw8_9F4fyvKWshI"
-        ></iframe>
+        <iframe src="../assets/portada.jpg"></iframe>
         <v-overlay
           class="align-end justify-center d-block"
           style="width: 1900px"

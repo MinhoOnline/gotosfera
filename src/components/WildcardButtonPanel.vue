@@ -4,7 +4,7 @@
       <v-btn
         fab
         dark
-        :color="isWildcardUsed0 ? 'light-green' : 'orange darken4'"
+        :color="isWildcardUsed0 ? 'light-gray' : getColor()"
         @click="click(0)"
         class="mr-4"
       >
@@ -15,7 +15,7 @@
       <v-btn
         fab
         dark
-        :color="isWildcardUsed1 ? 'light-green' : 'orange darken4'"
+        :color="isWildcardUsed1 ? 'light-gray' : getColor()"
         @click="click(1)"
         class="mr-4"
       >
@@ -26,23 +26,12 @@
       <v-btn
         fab
         dark
-        :color="isWildcardUsed2 ? 'light-green' : 'orange darken4'"
+        :color="isWildcardUsed2 ? 'light-gray' : getColor()"
         @click="click(2)"
         class="mr-4"
       >
         <v-icon dark>
           mdi-numeric-3-circle
-        </v-icon>
-      </v-btn>
-      <v-btn
-        fab
-        dark
-        :color="isWildcardUsed3 ? 'light-green' : 'orange darken4'"
-        @click="click(3)"
-        class="mr-4"
-      >
-        <v-icon dark>
-          mdi-numeric-4-circle
         </v-icon>
       </v-btn>
     </v-row>
@@ -65,8 +54,8 @@ export default {
       type: Boolean,
       required: true
     },
-    isWildcardUsed3: {
-      type: Boolean,
+    buttonColor: {
+      type: String,
       required: true
     }
   },
@@ -88,10 +77,14 @@ export default {
           // this.isWildcardUsed2 = !this.isWildcardUsed2;
           this.$emit("WildcardUsedChange", index);
           break;
-        case 3:
-          // this.isWildcardUsed3 = !this.isWildcardUsed3;
-          this.$emit("WildcardUsedChange", index);
-          break;
+      }
+    },
+    getColor() {
+      switch (this.buttonColor) {
+        case "red":
+          return "red darken-1";
+        case "yellow":
+          return "yellow darken-1";
       }
     }
   }
